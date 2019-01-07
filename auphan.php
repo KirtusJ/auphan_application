@@ -132,7 +132,7 @@ https://github.com/KirtusJ/auphan_application
 !-->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title><?php echo $app->name ?></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -140,7 +140,7 @@ https://github.com/KirtusJ/auphan_application
 	<!-- Objectively the best font (only joking but it's nice) !-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function() {
 			// init var_form
 			var form = $('.auth_form');
@@ -166,7 +166,7 @@ https://github.com/KirtusJ/auphan_application
 			});
 		});
 	</script>
-	<style type="text/css">
+	<style>
 		/*
 
 		I employ pretty hacky methods here. I apologize for any applicable method that is used incorrectly.
