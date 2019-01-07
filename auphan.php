@@ -116,6 +116,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!---
 
 This Application was built upon the following guidlines given:
+https://github.com/KirtusJ/auphan_application
 
 1. Has a place for the username, password and a login button.
 2. The username, password and login button are placed inside a box and centered horizontally and vertically in the page.   
@@ -309,5 +310,7 @@ $kirtus = {
 	"github" => "github.com/KirtusJ",
 	"email" => "kirtuswork@gmail.com"
 }
+
+$this->github("https://github.com/KirtusJ/auphan_application");
 
 !-->
