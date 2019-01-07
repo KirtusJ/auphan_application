@@ -263,7 +263,7 @@ https://github.com/KirtusJ/auphan_application
 	<div id="header">
 		<!-- I sort of wanted to add more pages such as a User Profile but I respected the wishes of a single page project !-->
 		<span>
-			<a href="index.php"><?php echo $app->name ?></a>
+			<a href="auphan.php"><?php echo $app->name ?></a>
 		</span>
 	</div>
 
@@ -308,7 +308,7 @@ Thank you checking out my application! Here's some information you can use for c
 $kirtus = {
 	"full_name" => "Kirtus Justus",
 	"github" => "github.com/KirtusJ",
-	"email" => "kirtuswork@gmail.com"
+	"email" => "kirtusjustus@outlook.com"
 }
 
 $this->github("https://github.com/KirtusJ/auphan_application");
